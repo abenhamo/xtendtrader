@@ -9,5 +9,6 @@ It has two modes:
 DO NOT FORGET TO BACKTEST YOUR STRATEGY BEFORE GOING LIVE USING IT!
 
 Thanks
+
 /abenhamo
 
