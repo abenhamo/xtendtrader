@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property copyright "abenhamo @ XtendPlex"
 #property link      "http://www.xtendplex.com"
-#property version   "2.00"
+#property version   "1.00"
 #property strict
 
 //+------------------------------------------------------------------+
@@ -353,9 +353,9 @@ double Get_Avg_Price(int type)
 
   }
 //+------------------------------------------------------------------+
-// X * current_price + Total_lots_same_way x Avg_open_price =current_price + avg_profit × TP_Shift 
+// X * current_price + Total_lots_same_way x Avg_open_price =current_price + avg_profit Ã— TP_Shift 
 
-// X  = (current_price + avg_profit × TP_Shift -  Total_lots_same_way x Avg_open_price) / current_price
+// X  = (current_price + avg_profit Ã— TP_Shift -  Total_lots_same_way x Avg_open_price) / current_price
 
 int Get_Nb_Trades(int type)
   {
